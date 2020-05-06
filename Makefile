@@ -2,7 +2,7 @@ BOX=vagrant-hardenedbsd-cpp.box
 
 .PHONY: launch-vm clean-vm clean-boxes clean-vagrant-metadata
 
-launch-vm: Vagrantfile bootstrap.sh
+launch-vm: Vagrantfile bootstrap
 	vagrant up
 
 clean-vm:
