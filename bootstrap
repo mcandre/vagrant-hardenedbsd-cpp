@@ -1,6 +1,6 @@
 #!/bin/sh
 unset IFS
-set -eu
+set -euf
 
 sudo hbsd-update &&
     sudo pkg update &&
